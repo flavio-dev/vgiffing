@@ -1,0 +1,67 @@
+body {
+	background-color: #F0F0F0;
+}
+
+h4 {
+	margin: 0px 0px 10px;
+}
+
+section, button {
+	line-height: 34px;
+	margin: 0 0 10px 10px;
+}
+
+button {
+	background-color: #08F;
+	border-radius: 20px;
+	color: white;
+	padding: 2px 18px;
+}
+
+input[type=text] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #999;
+	border-radius: 20px;
+	font-size: 13px;
+	outline: 0;
+	padding: 7px 0px 7px 8px;
+}
+
+a {
+	color: #999;
+}
+
+a:hover {
+	color: #000;
+}
+
+.parameters {
+	padding: 0 30px;
+}
+
+.drop {
+	min-height: 175px;
+	width: 340px;
+	border: 3px dashed #999;
+	padding: 10px;
+	color: #999;
+	text-align: center;
+}
+
+.drop.drag {
+	border-color: #000;
+}
+
+.drag .drop__text {
+	visibility: hidden;
+}
+
+.feedback {
+	color: green;
+}
+
+.feedback.error {
+	color: red;
+}

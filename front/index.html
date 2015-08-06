@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style/command.css">
+		<title>VGifs - parameters screen</title>
+	</head>
+	<body>
+		<div class="parameters">
+			<h2>Enter the initial parameters for the visuals to start.</h2>
+			<h4>(A tab called the 'visu screen' shoud automatically open. If it gets blocked by your browser, <a href="./visu.html" target="_blank">click here</a>)</h4>
+			<section>
+				<label for="sessionId">Your session id (you should see it on your 'visu' screen):</label>
+				<input id="sessionId" type="text" size="17" placeholder="xxxxxxxxxxxxx"/>
+			</section>
+			<section>
+				<label for="bpms">Number of BPMs:</label>
+				<input id="bpms" type="text" value="120" size="4" />
+			</section>
+			<section>
+				<label for="beats">Time signature (visual to be changed every <em>x</em> beats):</label>
+				<input id="beats" type="text" value="4" size="2" />
+			</section>
+			<section>
+				<label for="order">Play the list of gifs:</label>
+				<input type="radio" name="order" value="random" checked />Randomely
+				<input type="radio" name="order" value="ordered" />In order
+			</section>
+			<section>
+				<label for="hidebg">Hide background gif (simple black background):</label>
+				<input id="hidebg" type="checkbox" />
+			</section>
+			<section>
+				<label for="blurbg">Apply blur on background gif (heavy CPU load):</label>
+				<input id="blurbg" type="checkbox" checked />
+			</section>
+			<section class="drop">
+				<p class="drop__text">Drop json file here with your list of the gifs' urls.</p>
+				<p class="drop__text">If not, a default list of gifs will be used.</p>
+				<a class="drop__text" href="./example.json" target="_blank">Click here to get a JSON template</a>
+			</section>
+			<button class="send">Start the visuals</button>
+			<section class="feedback">
+			</section>
+		</div>
+		<script src="lib/jquery-2.1.4.min.js"></script>
+		<script src="command.js"></script>
+	</body>
+</html>
