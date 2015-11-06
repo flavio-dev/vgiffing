@@ -248,7 +248,19 @@ $(function () {
 			{"url": "../gifs/tumblr_nk1u243JTA1s2hovgo1_400.gif"},
 			{"url": "../gifs/tumblr_nl2gtgfq351tdhimpo1_500.gif"},
 			{"url": "../gifs/tumblr_nn7q0bjtQJ1tq1bhgo1_500.gif"},
-			{"url": "../gifs/tumblr_node1wlm6H1s4fz4bo1_r1_500.gif"}
+			{"url": "../gifs/tumblr_node1wlm6H1s4fz4bo1_r1_500.gif"},
+			{"url": "../gifs/z1.gif"},
+			{"url": "../gifs/z2.gif"},
+			{"url": "../gifs/z5.gif"},
+			{"url": "../gifs/z7.gif"},
+			{"url": "../gifs/z8.gif"},
+			{"url": "../gifs/z11.gif"},
+			{"url": "../gifs/z13.gif"},
+			{"url": "../gifs/z14.gif"},
+			{"url": "../gifs/z17.gif"},
+			{"url": "../gifs/z19.gif"},
+			{"url": "../gifs/z22.gif"},
+			{"url": "../gifs/z23.gif"}
 		]
 	};
 });
